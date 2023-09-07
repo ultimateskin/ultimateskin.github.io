@@ -3,7 +3,7 @@
 <head>
 
     <title>Ultimate Skin</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     
@@ -11,29 +11,53 @@
 </head>
 
 <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky">
-        <a class="navbar-brand" href="#">
-          <img src="./img/logo_groen_grijs.png" alt="Logo" width="100" height="70"/>
-        </a>
-  
-          <div class="navbar-nav" style="flex-direction: row !important;">
+  <div class="top" style="width: 101%;">
+     
+<div class="col-12 text-center contra">here the contra</div>
+      
+  </div>
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light " style="width: 101%;">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo_groen_grijs.png" alt="Logo" width="100" height="70"/>
+    </a>
+        <button id="btn" class="navbar-toggler" onclick="navbar()" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="text-align: center;display: none;">
+          <div class="navbar-nav">
             <a class="nav-item nav-link active " href="./index.html">Home <span class="text-dir"></span></a>
+     
             <a class="nav-item nav-link" href="./contact-us.html">Contact Us <span class=""></span></a>
+          </div>
+      
+    </nav>
 
-        </div>
-        <div class="form-inline my-2 my-lg-0">
-            <a class="nav-item nav-link active" target="_blank" href="https://www.facebook.com/"><img src="./img/facebook.svg" alt="" class="icons"></a>
-            <a class="nav-item nav-link active "target="_blank" href="https://wa.me/+963934550527"><img src="./img/whatsapp.svg" alt="" class="icons"></a>
-            <a class="nav-item nav-link active"target="_blank" href="mailto:ali6721985@gmail.com?subject=Mail from our Website"><img src="./img/google.svg" alt="" class="icons"></a>
-        </div>
-      </nav>
-
-      <section class="content my-5">
+      <section class="">
         <div class="" style="width: 100% !important;">
-          <h1 class="text-center my-5" style="color: #84cbcb !important">Laser-afdeling</h1>
-          <div class="row">
-            <div class="col-6">
-              <div class="container-sec2-text" style="padding: 12px !important;">
+          <div class="row" >       
+              <div class="col-12 mb-5">
+                  <div class="swiper swiper2" style="height: 100% !important; width: 101% !important;">
+
+                      <div class="swiper-wrapper" style="height: 168% !important;">
+                          <div class="swiper-slide extra js-fullheight" style="height:800px !important;background-image:url(./img/sec1-1.jpeg); width:100% !important">
+                          </div>
+                          <div class="swiper-slide extra js-fullheight" style="height:800px !important;background-image:url(./img/sec1-2.jpeg); width:100% !important">
+                          </div>
+                          <div class="swiper-slide extra js-fullheight" style="height:800px !important;background-image:url(./img/sec1-3.jpeg); width:100% !important">
+                          </div>
+                      </div>
+                      <div class="home-banner-nav">
+                        <div class="swiper-pagination pagination2  nav-progressbar"  style="bottom: 5% !important"></div>
+                    </div>
+  
+                  </div>
+                
+              </div>
+              <h1 class="text-center title-one" style="color: #84cbcb !important">Laser-afdeling</h1>
+              <div class="img-logo" style="background-image: url(./img/logo_groen_wit.png);">
+              </div>
+              <div class="items">
                 <ul class="list-items">
                   <li class=" animation opacity-0 delay-1" >Definitief laser ontharing</li>
                   <li class=" animation opacity-0 delay-2">Dermapen behandeling</li>
@@ -45,24 +69,6 @@
                   <li class=" animation opacity-0 delay-8">lichaam verzorging </li>
                 </ul>
             </div>
-            </div>
-              <div class="col-6">
-                  <div class="swiper swiper3" style="height: 56% !important; width: 95% !important;">
-                      <div class="swiper-wrapper" style="height: 168% !important;">
-                          <div class="swiper-slide extra js-fullheight" style="height:380px !important;background-image:url(./img/sec1-1.jpeg); width:100% !important">
-                          </div>
-                          <div class="swiper-slide extra js-fullheight" style="height:380px !important;background-image:url(./img/sec1-2.jpeg); width:100% !important">
-                          </div>
-                          <div class="swiper-slide extra js-fullheight" style="height:380px !important;background-image:url(./img/sec1-3.jpeg); width:100% !important">
-                          </div>
-                      </div>
-                      <div class="home-banner-nav">
-                        <div class="swiper-pagination pagination3  nav-progressbar"  style="bottom: -65% !important"></div>
-                    </div>
-  
-                  </div>
-                
-              </div>
           </div>
         </div>
       </section>
@@ -70,49 +76,41 @@
 
     <section class=" my-5">
       <div class="" style="width: 100% !important;">
-        <h1 class="text-center my-5" style="color: #84cbcb !important">Microneedling</h1>
+        <h1 class="text-center my-2" style="color: #84cbcb !important;font-size: 100px;">Microneedling</h1>
         <div class="row">
             <div class="col-12">
-                <div class="swiper swiper1" style="height: 56% !important;">
-                    <div class="swiper-wrapper" style="height: 70% !important;">
-                        <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec2-1.jpeg); width:100% !important">
+                        <div class="swiper-slide js-fullheight" style="height:100% !important;background-image:url(./img/sec2-1.jpeg); width:101% !important">
                         </div>
-                        <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec2-2.jpeg); width:100% !important">
+                 
+                       <div class="container-sec2-text">
+                           <p class="sec2-text my-2">Microneedling Ultieme huid  Microneedling is een behandeling wat met name gebruikt wordt voor huidverbeteringen. Met de Derma pen worden kleine kanalen gecreëerd. Deze minuscule kanaaltjes zijn niet zichtbaar voor het blote oog, maar precies diep genoeg om de huid op een natuurlijke manier te activeren. Hierdoor wordt de huid aangezet tot een natuurlijk herstelproces door middel van de juiste serums. Door stimulatie in het weefsel komen groei- en genezingsfactoren vrij, waardoor de aanmaak van collageen en elastine (bindweefsel) ontstaat. De verbeteringen die je zult zien:  Een egale huid Minder pigmentvlekken  - Strakkere huid  - Verbeterde huid structuur  - Huid verjonging  - Vermindering van acne  - Het aanpakken van littekens</p>
+                       </div>
+                        <div class="swiper-slide js-fullheight" style="height:100% !important;background-image:url(./img/sec2-3.jpeg); width:101% !important">
                         </div>
-                        <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec2-3.jpeg); width:100% !important">
-                        </div>
-                    </div>
-                    <div class="home-banner-nav">
-                      <div class="swiper-pagination nav-progressbar"  style="bottom: 20% !important;"></div>
-                  </div>
-
-                </div>
-                <div class="container-sec2-text">
-                    <p class="sec2-text my-2">Microneedling Ultieme huid  Microneedling is een behandeling wat met name gebruikt wordt voor huidverbeteringen. Met de Derma pen worden kleine kanalen gecreëerd. Deze minuscule kanaaltjes zijn niet zichtbaar voor het blote oog, maar precies diep genoeg om de huid op een natuurlijke manier te activeren. Hierdoor wordt de huid aangezet tot een natuurlijk herstelproces door middel van de juiste serums. Door stimulatie in het weefsel komen groei- en genezingsfactoren vrij, waardoor de aanmaak van collageen en elastine (bindweefsel) ontstaat. De verbeteringen die je zult zien:  Een egale huid Minder pigmentvlekken  - Strakkere huid  - Verbeterde huid structuur  - Huid verjonging  - Vermindering van acne  - Het aanpakken van littekens</p>
-                </div>
               </div>
-            </div>
-          </div>
+        </div>
+      </div>
+          
     </section>
 
-    <section class=" my-5">
+    <section class=" my-5" >
 
-      <div class="image-back pt-5 content">
-        <h1 class="text py-5" style="color: #84cbcb !important">Plasma lifting</h1>
+      <div class="image-back pt-5 content" style="margin-top: 132%;">
+        <h1 class="text py-5" style="color: #84cbcb !important;font-size: 100px;">Plasma lifting</h1>
 
       
 
-        <div class="swiper swiper2" style="height: 22% ;width: 60%;">
-          <div class="swiper-wrapper" style="height: 20% !important;">
-              <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec3-1.jpeg); width:100% !important">
+        <div class="swiper swiper3" style="height: 42% ;width: 101%;">
+          <div class="swiper-wrapper" style="height: 100% !important;">
+              <div class="swiper-slide js-fullheight" style="height:100% !important;background-image:url(./img/sec3-1.jpeg); width:100% !important">
               </div>
-              <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec3-2.jpeg); width:100% !important">
+              <div class="swiper-slide js-fullheight" style="height:100% !important;background-image:url(./img/sec3-2.jpeg); width:100% !important">
               </div>
-              <div class="swiper-slide js-fullheight" style="height:380px !important;background-image:url(./img/sec3-3.jpeg); width:100% !important">
+              <div class="swiper-slide js-fullheight" style="height:100% !important;background-image:url(./img/sec3-3.jpeg); width:100% !important">
               </div>
           </div>
           <div class="home-banner-nav">
-            <div class="swiper-pagination pagination2 nav-progressbar"  style="bottom: 20% !important;"></div>
+            <div class="swiper-pagination pagination3 nav-progressbar"  style="bottom: 20% !important;"></div>
         </div>
 
       </div>
@@ -124,7 +122,8 @@
 
       </div>
     </section> 
-
+    
     <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
