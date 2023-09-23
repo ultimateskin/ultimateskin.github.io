@@ -1,10 +1,20 @@
-@font-face {
-    font-family:'Caveat';
-    src: url('../fonts/Caveat-VariableFont_wght.ttf');
-}
-body{
-background-color: #fff  
 
+    body {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+@media (min-width: 992px) {
+    body {
+        background-color: #fff;
+        width: 57%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ultiamate{
+        margin-right: 45%;
+    }
 }
 .contra
 {
@@ -83,19 +93,19 @@ background-repeat: no-repeat;
 }
 .sec2-text{
 font-size: 31px;
-font-family:cursive;
 font-weight: 500;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+color: #9da3a3 !important;
 }
 .container-sec2-text{
 
-width: 101%;
+width: 100%;
 height: max-content;
 padding: 22px;
 margin: auto;
-background-color: #97dede;
+background-color: #FFFFFF;
 
 }
 .container-sec2-img{
@@ -166,7 +176,9 @@ animation-delay: 4s;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
-
+.mail-send-footer{
+    width: 15%;
+}
 .items{
     display: flex;
     width: 62%;
@@ -176,7 +188,11 @@ animation-delay: 4s;
     position: relative;
     top: -29rem;
     z-index: 99;
-    height: 14rem;
+    height: 90rem;
+}
+.homeNote{
+    width: auto;
+    height: 30%;
 }
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet 
 {
@@ -224,7 +240,7 @@ ul li{
 }
 .opacity-div{
     align-items: center;
-    width: 101%;
+    width: 100%;
     background-color: #ffffff5e;
     text-align: center;
     position: absolute;
@@ -254,7 +270,8 @@ color: #fff !important;
     
 }
 .border-img{
-    border:20px solid #fff
+    border:20px solid #fff;
+
 }
 .svg-links{
     width: 30px;
@@ -267,15 +284,13 @@ color: #fff !important;
     margin-left: 80%;
 }
 .card-title{
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 700;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2rem;
 }
 .card-body-text{
     font-size: 20px;
     font-weight: 500;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: start;
 }
 .textcol{
@@ -355,6 +370,84 @@ line-height: 1.5;
     background-repeat: no-repeat;
     margin-left: 4px;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+.contact-us-img{
+    height: auto;
+}
+.contact-us-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-time2{
+font-size: 40px;
+line-height: 1.5;
+}
+.phone2{
+    background-image: url(../img/phone-solid.svg);
+    display: block;
+    padding-left: 14rem;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 7%;
+    height: 3rem;
+}
+.mail2{
+    background-image: url(../img/mail.svg);
+    display: block;
+    padding-left: 9.4rem;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 7%;
+    height: 3rem;
+}
+.address2{
+    background-image: url(../img/house-solid.svg);
+    display: block;
+    padding-left: 6.4rem;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 7%;
+    height: 3rem;
+}
+.facebookLink2{
+    background-image: url(../img/facebook2.svg);
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}
+.instagramLink2{
+    background-image: url(../img/instagram.svg);
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}
+.sec1-img{
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 50%;
+}
 @keyframes slide {
 from {opacity: 0;
 
@@ -368,3 +461,5 @@ to {background-color: #97dede;
     }
 }
 
+
+    /* .
